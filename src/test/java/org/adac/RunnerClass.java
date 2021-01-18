@@ -9,6 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features="C:\\Users\\Mahesh\\eclipse-workspace\\Cucumber\\src\\test\\resources\\adaclogin.feature", glue={"org.stepdef"})
 public class RunnerClass {
 
-	
-	
+	private void method1() {
+		System.out.println("mahesh modified");
+
+	}
 }
